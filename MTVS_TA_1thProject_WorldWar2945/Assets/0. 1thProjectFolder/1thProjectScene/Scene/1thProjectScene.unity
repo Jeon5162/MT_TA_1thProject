@@ -494,11 +494,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: EEPlayer_UI
       objectReference: {fileID: 0}
-    - target: {fileID: 3740855816081373635, guid: cef71d79d1d652a4f9ca8a96a65e2212,
-        type: 3}
-      propertyPath: m_VertexColorAlwaysGammaSpace
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5670091125124907744, guid: cef71d79d1d652a4f9ca8a96a65e2212,
         type: 3}
       propertyPath: m_Pivot.x
@@ -599,6 +594,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7215965688238776347, guid: cef71d79d1d652a4f9ca8a96a65e2212,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215965688238776347, guid: cef71d79d1d652a4f9ca8a96a65e2212,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215965688238776347, guid: cef71d79d1d652a4f9ca8a96a65e2212,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -672,7 +682,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &506268276
